@@ -1,6 +1,6 @@
-'''Visualization of the filters of VGG16, via gradient ascent in input space.
+'''Visualization of the filters of VGG16, via gradient ascent with regularization in input space.
 This script can run on CPU in a few minutes (with the TensorFlow backend).
-Results example: http://i.imgur.com/4nj4KjN.jpg
+The original version is finished by keras, I added the regularization based on the work of yosinki
 '''
 from __future__ import print_function
 from scipy.misc import imsave
